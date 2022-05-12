@@ -1,0 +1,221 @@
+body { /* Customization for the backround of the document */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffffb9;
+}
+
+h1 { /* settings for the firs header of the document */
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    max-width: 30vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+b { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: white;
+}
+
+a:link { 
+    color:blue
+}
+
+a:visited {
+    color:blueviolet
+}
+
+a:focus{
+    color:crimson
+}
+
+a:hover {
+    color:red
+}
+
+a:active {
+    color:lightslategray
+}
+
+/* ===== ===== ============ ===== ===== */
+/* ===== ===== Page Overlay ===== ===== */
+/* ===== ===== ============ ===== ===== */
+
+.page-overlay { /* A default background overlay */
+    padding-top: 3px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    max-width: 60vw;
+    margin: 0 auto;
+    background-color: #5b6677;
+}
+
+.page-overlay-footer { /* A background overlay for the footers*/
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding-top: 2vw;
+    background-color: #5b6677;
+}
+
+.page-overlay-ARVR { /* A background overlay for ARVR.html */
+    padding-top: 3px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #5b6677;
+}
+
+.page-overlay-h { /* Used for a spectial h2 on computer&tech */
+    color: rgb(255, 255, 255);
+    background-color: #5b6677;  
+    margin: 0 auto;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    max-width: 20vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+/* ===== ===== ==================== ===== ===== */
+/* ===== ===== Lists/text & buttons ===== ===== */
+/* ===== ===== ==================== ===== ===== */
+
+/* Lists */
+.my-list {
+    background-position: center;
+    max-width: 30vw;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #969494;
+    margin: 1em auto;
+    text-align: left;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-text-customization {
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    margin: 4px;
+}
+/* buttons */
+main > form {
+    padding-top: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #5b6677;
+}
+/* Texts */
+.source-links {
+    margin: 0 auto;
+    text-align: center;
+    min-width: 10vw;
+}
+
+.computer-related-tech-grid > header { /* Makes a "fake" header for me to use, ie a default header if for whatever rteoson I can't or shouldn't use h1, h2 ect*/
+    text-decoration: solid;
+    font-size: large;
+    text-align: center;
+}
+
+/* IMG & video */
+.img { /* Customization for all images without a specific class */
+    max-width: 50vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 30vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-software { /* Customization for all images without a specific class */
+    max-width: 35vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 25vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arvr-images {
+    max-width: 35vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 25vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arvr-video {
+    margin-top: 2vh;
+    width: 560px; 
+    height: 315px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.computer-related-tech-grid > img {
+    margin-top: 2vh;
+    width: 500px; 
+    height: 29px;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* ===== ===== grids ===== ===== */
+/* ===== ===== ===== ===== ===== */
+
+.arvr-grid { 
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-column-gap: 8vw;
+}
+    
+    .arvr-grid > div { 
+        padding-top: 3px;
+        padding-bottom: 10px;
+        color: rgb(255, 255, 255);
+        background-color: #5b6677;
+        margin-right: 4vw;
+    }
+
+.computer-related-tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    min-height: calc(100vh - 65px);
+    margin: 0 2vw;
+}
+    
+    .computer-related-tech-grid > div { 
+        padding-top: 3px;
+        padding-bottom: 10px;
+        color: rgb(255, 255, 255);
+        background-color: #5b6677;
+    }
+
+.software-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1vw;
+    grid-row-gap: 0.5vw;
+    min-height: calc(100vh - 65px);
+    margin: 0 5vw;
+}
+
+    .software-grid > div { 
+        padding-top: 3px;
+        padding-bottom: 10px;
+        color: rgb(255, 255, 255);
+        background-color: #5b6677;
+    }
