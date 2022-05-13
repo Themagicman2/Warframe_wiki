@@ -1,18 +1,17 @@
 body { /* Customization for the backround of the document */
     text-align: center;
     margin: 0 auto;
-    background-color: #ffffffb9;
+    background-color: #000000;
 }
 
 h1 { /* settings for the firs header of the document */
     margin-top: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
     font-size: 32px;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     margin: 0 auto;
     margin-top: 20px;
@@ -34,7 +33,7 @@ a:link {
 }
 
 a:visited {
-    color:blueviolet
+    color:#b700ff
 }
 
 a:focus{
@@ -49,21 +48,20 @@ a:active {
     color:lightslategray
 }
 
-/* ===== ===== ============ ===== ===== */
 /* ===== ===== Page Overlay ===== ===== */
-/* ===== ===== ============ ===== ===== */
+
 
 .page-overlay { /* A default background overlay */
     padding-top: 3px;
     padding-bottom: 10px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     max-width: 60vw;
     margin: 0 auto;
-    background-color: #5b6677;
+    background-color: #0064ff14;
 }
 
 .page-overlay-footer { /* A background overlay for the footers*/
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin: 0 auto;
     padding-top: 2vw;
     background-color: #5b6677;
@@ -72,13 +70,13 @@ a:active {
 .page-overlay-ARVR { /* A background overlay for ARVR.html */
     padding-top: 3px;
     padding-bottom: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #5b6677;
+    color: #ffffff;
+    background-color: #0064ff14;
 }
 
 .page-overlay-h { /* Used for a spectial h2 on computer&tech */
-    color: rgb(255, 255, 255);
-    background-color: #5b6677;  
+    color: #ffffff;
+    background-color: #0064ff14;  
     margin: 0 auto;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
@@ -97,11 +95,11 @@ a:active {
     max-width: 30vw;
     border-width: 5px;
     border-style: solid;
-    background-color: #969494;
+    background-color: #000000;
     margin: 1em auto;
     text-align: left;
     list-style: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 .list-text-customization {
@@ -113,8 +111,8 @@ a:active {
 /* buttons */
 main > form {
     padding-top: 8px;
-    color: rgb(255, 255, 255);
-    background-color: #5b6677;
+    color: #ffffff;
+    background-color: #2dddf0;
 }
 /* Texts */
 .source-links {
@@ -123,7 +121,7 @@ main > form {
     min-width: 10vw;
 }
 
-.computer-related-tech-grid > header { /* Makes a "fake" header for me to use, ie a default header if for whatever rteoson I can't or shouldn't use h1, h2 ect*/
+.computer-related-tech-grid > header { 
     text-decoration: solid;
     font-size: large;
     text-align: center;
@@ -136,7 +134,7 @@ main > form {
     margin: 0 auto;
     width: 30vw; /* the images width */
     height: 20vw; /* the images height */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 .img-software { /* Customization for all images without a specific class */
@@ -145,7 +143,7 @@ main > form {
     margin: 0 auto;
     width: 25vw; /* the images width */
     height: 20vw; /* the images height */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 .arvr-images {
@@ -154,14 +152,14 @@ main > form {
     margin: 0 auto;
     width: 25vw; /* the images width */
     height: 20vw; /* the images height */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 .arvr-video {
-    margin-top: 2vh;
+    margin-top: 1vh;
     width: 560px; 
     height: 315px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 .computer-related-tech-grid > img {
@@ -181,10 +179,10 @@ main > form {
 }
     
     .arvr-grid > div { 
-        padding-top: 3px;
+        padding-top: 1x;
         padding-bottom: 10px;
-        color: rgb(255, 255, 255);
-        background-color: #5b6677;
+        color: #ffffff;
+        background-color: #0064ff14;
         margin-right: 4vw;
     }
 
@@ -200,7 +198,7 @@ main > form {
     .computer-related-tech-grid > div { 
         padding-top: 3px;
         padding-bottom: 10px;
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         background-color: #5b6677;
     }
 
@@ -216,6 +214,6 @@ main > form {
     .software-grid > div { 
         padding-top: 3px;
         padding-bottom: 10px;
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         background-color: #5b6677;
     }
