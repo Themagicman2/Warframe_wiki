@@ -7,24 +7,32 @@ body { /* Customization for the backround of the document */
 h1 { /* settings for the firs header of the document */
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
+}
+
+h2 { /* settings for the firs header of the document */
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
     font-size: 20px;
+    line-height: 30px;
     max-width: 30vw;
     text-shadow: 2px 2px 4px #000000;
 }
 
 b { 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     color: white;
 }
 
@@ -33,7 +41,7 @@ a:link {
 }
 
 a:visited {
-    color:#b700ff
+    color:#00f7ff
 }
 
 a:focus{
@@ -63,7 +71,7 @@ a:active {
 .page-overlay-footer { /* A background overlay for the footers*/
     color: #ffffff;
     margin: 0 auto;
-    padding-top: 2vw;
+    padding-top: 2px;
     background-color: #5b6677;
 }
 
@@ -111,8 +119,9 @@ a:active {
 /* buttons */
 main > form {
     padding-top: 8px;
+    padding-bottom: 8px;
     color: #ffffff;
-    background-color: #2dddf0;
+    background-color: #00e5ffa4;
 }
 /* Texts */
 .source-links {
@@ -199,7 +208,7 @@ main > form {
         padding-top: 3px;
         padding-bottom: 10px;
         color: #ffffff;
-        background-color: #5b6677;
+        background-color: #0064ff14;
     }
 
 .software-grid {
@@ -215,5 +224,5 @@ main > form {
         padding-top: 3px;
         padding-bottom: 10px;
         color: #ffffff;
-        background-color: #5b6677;
+        background-color: #0064ff14;
     }
