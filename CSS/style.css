@@ -1,16 +1,16 @@
-body { /* Customization for the backround of the document */
+body { /* Customization for the background of the document */
     text-align: center;
     margin: 0 auto;
     background-color: #000000;
 }
 
-h1 { /* settings for the firs header of the document */
+h1 { /* settings for the first header of the document */
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
 }
 
-h2 { /* settings for the firs header of the document */
+h2 { /* settings for the first header of the document */
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -27,7 +27,7 @@ p {
     font-size: 20px;
     line-height: 30px;
     max-width: 30vw;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #00e1ff93;
 }
 
 b { 
@@ -75,14 +75,14 @@ a:active {
     background-color: #5b6677;
 }
 
-.page-overlay-ARVR { /* A background overlay for ARVR.html */
+.page-overlay-tutorial { /* A background overlay for tutorial.html */
     padding-top: 3px;
     padding-bottom: 10px;
     color: #ffffff;
     background-color: #0064ff14;
 }
 
-.page-overlay-h { /* Used for a spectial h2 on computer&tech */
+.page-overlay-h { /* Used for a special h2 on lore*/
     color: #ffffff;
     background-color: #0064ff14;  
     margin: 0 auto;
@@ -93,9 +93,7 @@ a:active {
     padding-bottom: 1vw;
 }
 
-/* ===== ===== ==================== ===== ===== */
 /* ===== ===== Lists/text & buttons ===== ===== */
-/* ===== ===== ==================== ===== ===== */
 
 /* Lists */
 .my-list {
@@ -111,9 +109,8 @@ a:active {
 }
 
 .list-text-customization {
-    color:black;
+    color:rgb(255, 255, 255);
     font-weight: bold;
-    font-style: italic;
     margin: 4px;
 }
 /* buttons */
@@ -130,7 +127,7 @@ main > form {
     min-width: 10vw;
 }
 
-.computer-related-tech-grid > header { 
+.lore-grid > header { 
     text-decoration: solid;
     font-size: large;
     text-align: center;
@@ -146,7 +143,7 @@ main > form {
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
-.img-software { /* Customization for all images without a specific class */
+.img-warframes { /* Customization for all images without a specific class */
     max-width: 35vw; /* sets the max with of an image */
     text-align: center; /* Tells the image where it's meant to be */
     margin: 0 auto;
@@ -155,7 +152,7 @@ main > form {
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
-.arvr-images {
+.tutorial-images {
     max-width: 35vw; /* sets the max with of an image */
     text-align: center; /* Tells the image where it's meant to be */
     margin: 0 auto;
@@ -164,30 +161,28 @@ main > form {
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
-.arvr-video {
+.tutorial-video {
     margin-top: 1vh;
     width: 560px; 
     height: 315px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
-.computer-related-tech-grid > img {
+.lore-grid > img {
     margin-top: 2vh;
     width: 500px; 
     height: 29px;
 }
 
-/* ===== ===== ===== ===== ===== */
 /* ===== ===== grids ===== ===== */
-/* ===== ===== ===== ===== ===== */
 
-.arvr-grid { 
+.tutorial-grid { 
     display: grid;
     grid-template-columns: 0.4fr 1fr 1fr;
     grid-column-gap: 8vw;
 }
     
-    .arvr-grid > div { 
+    .tutorial-grid > div { 
         padding-top: 1x;
         padding-bottom: 10px;
         color: #ffffff;
@@ -195,7 +190,7 @@ main > form {
         margin-right: 4vw;
     }
 
-.computer-related-tech-grid {
+.lore-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2vw;
@@ -204,14 +199,14 @@ main > form {
     margin: 0 2vw;
 }
     
-    .computer-related-tech-grid > div { 
+    .lore-grid > div { 
         padding-top: 3px;
         padding-bottom: 10px;
         color: #ffffff;
         background-color: #0064ff14;
     }
 
-.software-grid {
+.warframes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1vw;
@@ -220,9 +215,29 @@ main > form {
     margin: 0 5vw;
 }
 
-    .software-grid > div { 
+    .warframes-grid > div { 
         padding-top: 3px;
         padding-bottom: 10px;
         color: #ffffff;
         background-color: #0064ff14;
+    }
+   
+    a:link { 
+        color:blue
+    }
+    
+    a:visited {
+        color:#00f7ff
+    }
+    
+    a:focus{
+        color:crimson
+    }
+    
+    a:hover {
+        color:red
+    }
+    
+    a:active {
+        color:lightslategray
     }
