@@ -118,7 +118,6 @@ main > form {
     padding-top: 8px;
     padding-bottom: 8px;
     color: #ffffff;
-    background-color: #00e5ffa4;
 }
 /* Texts */
 .source-links {
@@ -127,6 +126,11 @@ main > form {
     min-width: 10vw;
 }
 
+body {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+}    
 .lore-grid > header { 
     text-decoration: solid;
     font-size: large;
